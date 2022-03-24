@@ -1,6 +1,6 @@
 import path from 'path';
 import { Router } from 'express';
-import { registerAdmin } from '../controllers/auth.js';
+import { registerAdmin } from '../services/auth.js';
 
 const router = Router();
 
