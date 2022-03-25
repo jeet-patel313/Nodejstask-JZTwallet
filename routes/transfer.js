@@ -4,7 +4,7 @@ import {
   transferAmount,
   getAllTransaction,
   getTransaction,
-} from '../services/transfer.js';
+} from '../controllers/transfer.js';
 import verify from './verifyToken.js';
 
 router.post('/', verify, transferAmount);
